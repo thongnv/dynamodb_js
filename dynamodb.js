@@ -127,7 +127,7 @@ var params = {
     TableName: "t_glyph",
     KeyConditionExpression: "glyph_id = :glyph_id",
     ExpressionAttributeValues: {
-        ":glyph_id": "1"
+        ":glyph_id": 1
     }
 };
 
